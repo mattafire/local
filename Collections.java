@@ -5,16 +5,6 @@ import java.util.Iterator;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author Mattafire
- */
 public class Collections {
     
     static ArrayList animalNames = new ArrayList();//just a list
@@ -58,6 +48,7 @@ public class Collections {
     }
     
     private static void printMenu(){
+        System.out.println();
         System.out.println("Please choose an option:");
         System.out.println("1 ");
         System.out.print(">>");
@@ -69,6 +60,7 @@ public class Collections {
     }
     
     private static void getAnimal(){
+        System.out.println();
         System.out.print("Please enter an animal name:");
     }
 
@@ -87,7 +79,7 @@ public class Collections {
     }
 
     private static void printSpecs(String in) {
-        
+        System.out.println();
         System.out.println(in + " is a " + animalSpecs.get(in));
     }
     
